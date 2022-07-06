@@ -1,0 +1,175 @@
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+} 
+
+:root{
+  --vermelho:hsl(0, 100%, 50%);
+  --preto:hsl(0, 8%, 80%);
+  --branco:hsl(0, 0%, 100%);
+  --rosa:hsl(350, 93%, 62%);
+}
+body{
+  font-family:'DM Sans', sans-serif;
+  background-color:black;
+  color: white;
+
+}
+.button{
+  position: relative;
+  width: 100px;
+  height: 40px;
+  border-radius: 25px;
+  box-shadow: 0 0 2.5px 0 green;
+  cursor: pointer;
+  background-color: white;
+
+}
+/* .botao{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+.dark {
+  background:black;
+  color: white;
+}
+
+.checkbox {
+  opacity: 0;
+  position: absolute;
+}
+
+.label {
+  background-color: #111;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 5px;
+  position: relative;
+  height: 26px;
+  width: 50px;
+  transform: scale(1.5);
+
+}
+
+
+.label .ball {
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 22px;
+  width: 22px;
+  transform: translateX(0px);
+  transition: transform 0.2s linear;
+}
+
+.checkbox:checked + .label .ball {
+  transform: translateX(24px);
+}
+
+.fa-moon {
+  color: #f1c40f;
+}
+
+.fa-sun {
+  color: #f39c12;
+} */
+
+
+ .container {
+  display: block;
+  text-align: center;
+  width: 300px;
+  margin: 60px auto ;
+ }
+
+ img{
+  width: 100%;
+ }
+ .avatar{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 1px;
+  border: var(--vermelho) solid 4px;
+ }
+
+
+ .username{
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  color: var(--preto);
+  opacity: 0.8;
+  font-size: 18px;
+  
+}
+
+ a{
+  text-decoration: none;
+  color: var(--branco);
+ }
+ i{
+  color: black;
+
+ }
+
+ ul{
+  list-style: none;
+  margin:48px 0;
+ }
+ h1{
+  margin-top: 24px;
+ margin-bottom: 8px ;
+ font-size: 32px;
+ }
+
+
+ ul li a{
+ height: 53px;
+ display: flex;
+ align-items: center;
+ justify-content:center ;
+ background:var(--vermelho) ;
+ color: var(--branco);
+font-size: 14px;
+font-family: 'DM Sans', sans-serif;
+text-transform: uppercase;
+margin-bottom: 16px;
+border-radius: 6px;
+
+transition: background 400ms;
+ }
+
+ ul li a:active{
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+  }
+
+ ul li a:hover{
+  background: var(--rosa);
+ }
+
+footer{
+  font-weight: 500;
+  font-size: 12px;
+  color: white;
+  opacity: 0.6;
+  font-family: 'DM Sans', sans-serif;
+}
+footer:hover{
+  opacity:1 ;
+}
+
+ footer a {
+  font-family: 'DM Sans', sans-serif;
+  color: purple;
+ }
